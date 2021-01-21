@@ -4,7 +4,7 @@
 export TARGET_ARCH="arm64-v8a"
 
 # Some about us
-export FOX_VERSION="R11.0_1.2"
+export FOX_VERSION="R11.0_2"
 export OF_MAINTAINER=Invernomuto
 
 # Build environment stuffs
@@ -23,7 +23,7 @@ export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES="1"
 export OF_AB_DEVICE="1"
 
 # Screen specifications
-export OF_HIDE_NOTCH="1"
+export OF_HIDE_NOTCH="0"
 export OF_STATUS_INDENT_LEFT="48"
 export OF_STATUS_INDENT_RIGHT="48"
 export OF_SCREEN_H="2340"
@@ -62,5 +62,6 @@ export FOX_REPLACE_BUSYBOX_PS="1"
 export FOX_USE_BASH_SHELL="1"
 export FOX_USE_LZMA_COMPRESSION="1"
 export FOX_USE_NANO_EDITOR="1"
+#export OF_USE_GREEN_LED="0"
 
 add_lunch_combo omni_guacamole-eng
