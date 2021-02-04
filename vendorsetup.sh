@@ -25,7 +25,7 @@ export OF_AB_DEVICE="1"
 # Screen specifications
 # export OF_HIDE_NOTCH="1"
 export OF_SCREEN_H=2340
-export OF_STATUS_H=-7
+export OF_STATUS_H=-20
 export OF_STATUS_INDENT_LEFT=48
 export OF_STATUS_INDENT_RIGHT=48
 
